@@ -73,7 +73,7 @@ function submitForm(event) {
     submitButton.textContent = 'Sending...';
     submitButton.disabled = true;
     
-    fetch('https://formspree.io/f/YOUR_FORM_ID', {
+    fetch('https://formspree.io/f/xblkdkre', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
